@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" >
+
+    <TextView
+        android:id="@+id/titleCodigo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        android:background="@color/white"
+        app:layout_constraintStart_toStartOf="parent"
+        android:text="Node Code:"
+        tools:text="Code Node:   "/>
+    <TextView
+        android:id="@+id/tvtitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        android:background="@color/white"
+        app:layout_constraintStart_toEndOf="@+id/titleCodigo"
+        tools:text="Codigo del nodo"/>
+
+    <TextView
+        android:id="@+id/titleType"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/titleCodigo"
+        android:background="@color/white"
+        app:layout_constraintStart_toStartOf="parent"
+        android:text="Type :"
+        tools:text="Type:   "/>
+
+    <TextView
+        android:id="@+id/tvtype"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        app:layout_constraintStart_toEndOf="@+id/titleType"
+        app:layout_constraintTop_toBottomOf="@+id/tvtitle"
+        tools:text="tipo del nodo"/>
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

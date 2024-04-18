@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_graph"
+    app:startDestination="@id/resumenFragment">
+
+    <fragment
+        android:id="@+id/informationNodesFragment"
+        android:name="com.example.controlobra.ui.informationNodes.InformationNodesFragment"
+        android:label="fragment_information_nodes"
+        tools:layout="@layout/fragment_information_nodes" />
+    <fragment
+        android:id="@+id/projectsFragment"
+        android:name="com.example.controlobra.ui.projects.ProjectsFragment"
+        android:label="fragment_projects"
+        tools:layout="@layout/fragment_projects" />
+    <fragment
+        android:id="@+id/moreMenuFragment"
+        android:name="com.example.controlobra.ui.moreMenu.MoreMenuFragment"
+        android:label="fragment_more_menu"
+        tools:layout="@layout/fragment_more_menu" />
+    <fragment
+        android:id="@+id/resumenFragment"
+        android:name="com.example.controlobra.ui.resumen.ResumenFragment"
+        android:label="fragment_resumen"
+        tools:layout="@layout/fragment_resumen" />
+
+</navigation>

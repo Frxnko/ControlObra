@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/resumenFragment"
+        android:title="@string/resumen"
+        android:icon="@drawable/ic_resumen"/>
+    <item
+        android:id="@+id/projectsFragment"
+        android:title="@string/projects"
+        android:icon="@drawable/ic_projects"/>
+    <item
+        android:id="@+id/informationNodesFragment"
+        android:title="@string/information"
+        android:icon="@drawable/ic_information"/>
+    <item
+        android:id="@+id/moreMenuFragment"
+        android:title="@string/more"
+        android:icon="@drawable/ic_more"/>
+</menu>
